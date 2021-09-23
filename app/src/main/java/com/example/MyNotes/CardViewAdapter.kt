@@ -13,6 +13,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.MyNotes.activities.DetailsActivity
+import com.example.MyNotes.databaseHelper.TableInfo
 import com.example.MyNotes.databinding.CardViewBinding
 
 
@@ -26,7 +27,8 @@ class CardViewAdapter(val context: Context, val db: SQLiteDatabase, var notes: A
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
 
-        val cursor = db.query(TableInfo.TABLE_NAME, null, BaseColumns._ID+"=?", arrayOf(holder.adapterPosition.plus(1).toString()),
+        val cursor = db.query(
+            TableInfo.TABLE_NAME, null, BaseColumns._ID+"=?", arrayOf(holder.adapterPosition.plus(1).toString()),
             null,null,null)
 
 

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.MyNotes.*
+import com.example.MyNotes.databaseHelper.DataBaseHelper
+import com.example.MyNotes.databaseHelper.TableInfo
 import com.example.MyNotes.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
