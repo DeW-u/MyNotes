@@ -11,4 +11,4 @@ holding down one of them.
 
 It uses SQLite to save notes to the phone memory.
 ## Screenshots
-<img src="/screenshots/1.png" width="200px">      <img src="/screenshots/2.png" width="200px">
+<img src="/screenshots/1.png" width="200px">      <img src="/screenshots/2.png" width="200px">      <img src="/screenshots/3.png" width="200px">
